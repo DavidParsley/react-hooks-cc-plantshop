@@ -4,7 +4,7 @@ import PlantList from "./PlantList";
 import Search from "./Search";
 import { useState } from "react";
 
-function PlantPage({plants, addPlant, deletePlant}) {
+function PlantPage({plants, addPlant, deletePlant, updatePlant}) {
   const [search, setSearch] = useState("");
 
   const filter = plants.filter((plant) =>
@@ -15,7 +15,7 @@ function PlantPage({plants, addPlant, deletePlant}) {
     <main>
       <NewPlantForm addPlant={addPlant} />
       <Search search={search} setSearch={setSearch}/>
-      <PlantList plants={filter} deletePlant={deletePlant}/>
+      <PlantList plants={filter} deletePlant={deletePlant} updatePlant={updatePlant}/>
     </main>
   );
 }

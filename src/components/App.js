@@ -13,6 +13,19 @@ function App() {
   function deletePlant(plantId) {
     setPlants((plants) => plants.filter((plant) => plant.id !== plantId));
   }
+
+  function updatePlant(updatedPlant) {
+    setPlants((plants) => {
+      return plants.map((plant) => {
+        if (plant.id === updatedPlant.id) {
+          return updatedPlant; 
+        } else {
+          return plant; 
+        }
+      });
+    });
+  }
+
   useEffect(() => {
     fetch("http://localhost:6001/plants")
       .then((response) => response.json())
@@ -24,7 +37,7 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <PlantPage plants={plants} addPlant={addPlant} deletePlant={deletePlant}/>
+      <PlantPage plants={plants} addPlant={addPlant} deletePlant={deletePlant} updatePlant={updatePlant}/>
     </div>
   );
 }
