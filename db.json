@@ -1,52 +1,52 @@
 {
-  "plants": [
-    {
-      "id": 1,
-      "name": "Aloe",
-      "image": "./images/aloe.jpg",
-      "price": 15.99
-    },
-    {
-      "id": 2,
-      "name": "ZZ Plant",
-      "image": "./images/zz-plant.jpg",
-      "price": 25.98
-    },
-    {
-      "id": 3,
-      "name": "Pilea peperomioides",
-      "image": "./images/pilea.jpg",
-      "price": "5.97"
-    },
-    {
-      "id": 4,
-      "name": "Pothos",
-      "image": "./images/pothos.jpg",
-      "price": 12.11
-    },
-    {
-      "id": 5,
-      "name": "Jade",
-      "image": "./images/jade.jpg",
-      "price": 10.37
-    },
-    {
-      "id": 6,
-      "name": "Monstera Deliciosa",
-      "image": "./images/monstera.jpg",
-      "price": 25.99
-    },
-    {
-      "id": 7,
-      "name": "Fiddle Leaf Fig",
-      "image": "./images/fiddle-leaf-fig.jpg",
-      "price": 55
-    },
-    {
-      "name": "Moringa Plant",
-      "image": "data:image/jpeg;base64,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",
-      "price": "11.11",
-      "id": 8
-    }
-  ]
-}
+    "plants": [
+      {
+        "id": 1,
+        "name": "Aloe",
+        "image": "./images/aloe.jpg",
+        "price": 15.99
+      },
+      {
+        "id": 2,
+        "name": "ZZ Plant",
+        "image": "./images/zz-plant.jpg",
+        "price": 25.98
+      },
+      {
+        "id": 3,
+        "name": "Pilea peperomioides",
+        "image": "./images/pilea.jpg",
+        "price": "5.97"
+      },
+      {
+        "id": 4,
+        "name": "Pothos",
+        "image": "./images/pothos.jpg",
+        "price": 12.11
+      },
+      {
+        "id": 5,
+        "name": "Jade",
+        "image": "./images/jade.jpg",
+        "price": 10.37
+      },
+      {
+        "id": 6,
+        "name": "Monstera Deliciosa",
+        "image": "./images/monstera.jpg",
+        "price": 25.99
+      },
+      {
+        "id": 7,
+        "name": "Fiddle Leaf Fig",
+        "image": "./images/fiddle-leaf-fig.jpg",
+        "price": 55
+      },
+      {
+        "name": "Moringa Plant",
+        "image": "https://aduna.com/cdn/shop/articles/Aduna_moringa-tree_4f5c1d0e-cc4b-42c6-9b4b-85d748ab7944.jpg?v=1721054358&width=1000",
+        "price": "11.11",
+        "id": 8
+      }
+    ]
+  }
