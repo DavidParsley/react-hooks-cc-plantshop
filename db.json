@@ -41,18 +41,6 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
-    },
-    {
-      "name": "Cactus",
-      "image": "s",
-      "price": "1",
-      "id": 8
-    },
-    {
-      "name": "Milk",
-      "image": "1",
-      "price": "1",
-      "id": 9
     }
   ]
 }

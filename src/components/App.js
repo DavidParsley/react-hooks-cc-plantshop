@@ -10,6 +10,9 @@ function App() {
     setPlants((plants) => [...plants, newPlant]);
   }
 
+  function deletePlant(plantId) {
+    setPlants((plants) => plants.filter((plant) => plant.id !== plantId));
+  }
   useEffect(() => {
     fetch("http://localhost:6001/plants")
       .then((response) => response.json())
@@ -21,7 +24,7 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <PlantPage plants={plants} addPlant={addPlant} />
+      <PlantPage plants={plants} addPlant={addPlant} deletePlant={deletePlant}/>
     </div>
   );
 }
