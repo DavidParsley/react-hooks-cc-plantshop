@@ -37,7 +37,7 @@ This project meets all the Core Deliverables and Advanced Deliverables.
 * CSS
 
 ## Known Bugs
-The application works perfectly well, no bugs.
+The Website is currently undeployed beacuse of issues with the db.json and Netlify
 
 ## Technologies Used
 HTML, CSS, Bootstrap, JavaScript, Json-server
