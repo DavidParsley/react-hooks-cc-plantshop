@@ -27,7 +27,7 @@ function App() {
   }
 
   useEffect(() => {
-    fetch("http://localhost:6001/plants")
+    fetch("https://react-hooks-cc-plantshop-i8pv.onrender.com/plants")
       .then((response) => response.json())
       .then((data) => {
         setPlants(data);

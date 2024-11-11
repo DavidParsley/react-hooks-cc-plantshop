@@ -6,7 +6,7 @@ function PlantCard({plant, deletePlant, updatePlant}) {
   const color = inStock ? "green" : "grey";
 
   function handleDelete() {
-    fetch(`http://localhost:6001/plants/${plant.id}`, {
+    fetch(`https://react-hooks-cc-plantshop-i8pv.onrender.com/plants/${plant.id}`, {
       method: "DELETE",
     })
       .then((response) => response.json())
@@ -19,7 +19,7 @@ function PlantCard({plant, deletePlant, updatePlant}) {
   }
 
   function priceUpdate() {
-    fetch(`http://localhost:6001/plants/${plant.id}`, {
+    fetch(`https://react-hooks-cc-plantshop-i8pv.onrender.com/plants/${plant.id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",
