@@ -16,8 +16,8 @@ This project meets all the Core Deliverables and Advanced Deliverables.
 * And you are all done
 
 ## Live server
-* You can view the web live on ()
-* Render Link ()
+* You can view the web live on (https://p1nt22.netlify.app/)
+* Render Link (https://react-hooks-cc-plantshop-i8pv.onrender.com)
 
 # Core Deliverables
 # Features:
